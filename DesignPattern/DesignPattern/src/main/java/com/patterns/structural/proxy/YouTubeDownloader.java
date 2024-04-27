@@ -6,7 +6,7 @@ import java.util.HashMap;
  * 媒体下载应用
  */
 public class YouTubeDownloader {
-    private ThirdPartyYouTubeLib api;
+    private final ThirdPartyYouTubeLib api;
 
     public YouTubeDownloader(ThirdPartyYouTubeLib api) {
         this.api = api;
