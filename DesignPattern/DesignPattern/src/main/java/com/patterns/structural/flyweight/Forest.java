@@ -5,6 +5,9 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 封装创建享元的复杂机制
+ */
 public class Forest extends JFrame {
     private List<Tree> trees = new ArrayList<>();
 

@@ -9,4 +9,9 @@ public class HtmlDialog extends Dialog {
     public Button createnButton() {
         return new HtmlButton();
     }
+
+    @Override
+    public Checkbox createnCheckbox() {
+        return new HtmlCheckbox();
+    }
 }

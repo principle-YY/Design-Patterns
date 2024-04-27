@@ -8,4 +8,9 @@ public class WindowsDialog extends Dialog {
     public Button createnButton() {
         return new WindowsButton();
     }
+
+    @Override
+    public Checkbox createnCheckbox() {
+        return new WindowsCheckbox();
+    }
 }
